@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/pcb3545/esp/hello_world/build/CMakeFiles/bootloader
+/home/pcb3545/esp/hello_world/build/CMakeFiles/bootloader.rule
+/home/pcb3545/esp/hello_world/build/CMakeFiles/bootloader-complete.rule
+/home/pcb3545/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/pcb3545/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/pcb3545/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/pcb3545/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/pcb3545/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/pcb3545/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/pcb3545/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
