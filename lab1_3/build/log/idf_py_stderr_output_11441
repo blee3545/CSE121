@@ -1,0 +1,9 @@
+Command: cmake -G Ninja -B /home/pcb3545/esp/lab1_3/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/pcb3545/.espressif/python_env/idf6.2_py3.12_env/bin/python -DESP_PLATFORM=1 -DIDF_TARGET=esp32c3 -DCCACHE_ENABLE=False -DCONFIGDEP_ENABLE=True /home/pcb3545/esp/lab1_3
+CMake Error at /home/pcb3545/esp/esp-idf/tools/cmake/build.cmake:717 (message):
+  ERROR: Manifest is not valid
+
+Call Stack (most recent call first):
+  /home/pcb3545/esp/esp-idf/tools/cmake/project.cmake:904 (idf_build_process)
+  CMakeLists.txt:4 (project)
+
+

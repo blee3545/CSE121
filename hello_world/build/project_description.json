@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "hello_world",
-    "project_version":    "1",
+    "project_version":    "ceeeb4b-dirty",
     "project_path":       "/home/pcb3545/esp/hello_world",
     "idf_path":           "/home/pcb3545/esp/esp-idf",
     "build_dir":          "/home/pcb3545/esp/hello_world/build",

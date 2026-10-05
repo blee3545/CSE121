@@ -18,8 +18,6 @@ Command: cmake -G Ninja -B /home/pcb3545/esp/hello_world/build -DPYTHON_DEPS_CHE
 -- Check for working CXX compiler: /home/pcb3545/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-g++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
--- Could not use 'git describe' to determine PROJECT_VER.
 -- Building ESP-IDF components for target esp32c3
 -- KCONFIG_REPORT_VERBOSITY not set, using default
 -- Project sdkconfig file /home/pcb3545/esp/hello_world/sdkconfig
@@ -43,7 +41,7 @@ Command: cmake -G Ninja -B /home/pcb3545/esp/hello_world/build -DPYTHON_DEPS_CHE
 -- Performing Test compiler_supports_ftrivial_auto_var_init - Success
 -- Adding linker script /home/pcb3545/esp/esp-idf/components/riscv/ld/rom.api.ld
 -- Adding linker script /home/pcb3545/esp/esp-idf/components/esp_hal_regi2c/esp32c3/rom.regi2c.ld
--- App "hello_world" version: 1
+-- App "hello_world" version: ceeeb4b-dirty
 -- Adding linker script /home/pcb3545/esp/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in
 --   -> Preprocessing .in script: /home/pcb3545/esp/esp-idf/components/esp_system/ld/esp32c3/memory.ld.in
 -- Adding linker script /home/pcb3545/esp/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in
@@ -67,6 +65,6 @@ Command: cmake -G Ninja -B /home/pcb3545/esp/hello_world/build -DPYTHON_DEPS_CHE
 -- Linker: /home/pcb3545/.espressif/tools/riscv32-esp-elf/esp-16.1.0_20260609/riscv32-esp-elf/bin/riscv32-esp-elf-ld (GNU ld (crosstool-NG esp-16.1.0_20260609) 2.46)
 -- Components: bootloader bootloader_support cxx efuse esp_app_format esp_blockdev esp_bootloader_format esp_common esp_driver_gpio esp_hal_ana_conv esp_hal_cache esp_hal_clock esp_hal_debug_assist esp_hal_dma esp_hal_gpio esp_hal_gpspi esp_hal_mspi esp_hal_pmu esp_hal_regi2c esp_hal_rtc_timer esp_hal_security esp_hal_systimer esp_hal_timg esp_hal_touch_sens esp_hal_uart esp_hal_usb esp_hal_wdt esp_hw_support esp_libc esp_mm esp_mspi esp_partition esp_pm esp_rom esp_security esp_stdio esp_system esp_timer esp_usb_cdc_rom_console esptool_py freertos hal heap log main partition_table pthread riscv soc spi_flash
 -- Component paths: /home/pcb3545/esp/esp-idf/components/bootloader /home/pcb3545/esp/esp-idf/components/bootloader_support /home/pcb3545/esp/esp-idf/components/cxx /home/pcb3545/esp/esp-idf/components/efuse /home/pcb3545/esp/esp-idf/components/esp_app_format /home/pcb3545/esp/esp-idf/components/esp_blockdev /home/pcb3545/esp/esp-idf/components/esp_bootloader_format /home/pcb3545/esp/esp-idf/components/esp_common /home/pcb3545/esp/esp-idf/components/esp_driver_gpio /home/pcb3545/esp/esp-idf/components/esp_hal_ana_conv /home/pcb3545/esp/esp-idf/components/esp_hal_cache /home/pcb3545/esp/esp-idf/components/esp_hal_clock /home/pcb3545/esp/esp-idf/components/esp_hal_debug_assist /home/pcb3545/esp/esp-idf/components/esp_hal_dma /home/pcb3545/esp/esp-idf/components/esp_hal_gpio /home/pcb3545/esp/esp-idf/components/esp_hal_gpspi /home/pcb3545/esp/esp-idf/components/esp_hal_mspi /home/pcb3545/esp/esp-idf/components/esp_hal_pmu /home/pcb3545/esp/esp-idf/components/esp_hal_regi2c /home/pcb3545/esp/esp-idf/components/esp_hal_rtc_timer /home/pcb3545/esp/esp-idf/components/esp_hal_security /home/pcb3545/esp/esp-idf/components/esp_hal_systimer /home/pcb3545/esp/esp-idf/components/esp_hal_timg /home/pcb3545/esp/esp-idf/components/esp_hal_touch_sens /home/pcb3545/esp/esp-idf/components/esp_hal_uart /home/pcb3545/esp/esp-idf/components/esp_hal_usb /home/pcb3545/esp/esp-idf/components/esp_hal_wdt /home/pcb3545/esp/esp-idf/components/esp_hw_support /home/pcb3545/esp/esp-idf/components/esp_libc /home/pcb3545/esp/esp-idf/components/esp_mm /home/pcb3545/esp/esp-idf/components/esp_mspi /home/pcb3545/esp/esp-idf/components/esp_partition /home/pcb3545/esp/esp-idf/components/esp_pm /home/pcb3545/esp/esp-idf/components/esp_rom /home/pcb3545/esp/esp-idf/components/esp_security /home/pcb3545/esp/esp-idf/components/esp_stdio /home/pcb3545/esp/esp-idf/components/esp_system /home/pcb3545/esp/esp-idf/components/esp_timer /home/pcb3545/esp/esp-idf/components/esp_usb_cdc_rom_console /home/pcb3545/esp/esp-idf/components/esptool_py /home/pcb3545/esp/esp-idf/components/freertos /home/pcb3545/esp/esp-idf/components/hal /home/pcb3545/esp/esp-idf/components/heap /home/pcb3545/esp/esp-idf/components/log /home/pcb3545/esp/hello_world/main /home/pcb3545/esp/esp-idf/components/partition_table /home/pcb3545/esp/esp-idf/components/pthread /home/pcb3545/esp/esp-idf/components/riscv /home/pcb3545/esp/esp-idf/components/soc /home/pcb3545/esp/esp-idf/components/spi_flash
--- Configuring done (31.6s)
+-- Configuring done (24.3s)
 -- Generating done (0.8s)
 -- Build files have been written to: /home/pcb3545/esp/hello_world/build
